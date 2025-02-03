@@ -1,6 +1,6 @@
 # Pandas Who Code Website
 
-A modern website for the Pandas Who Code community, featuring a clean design and intuitive navigation.
+A modern website showcasing Pandas Who Code's innovative software solutions and development projects.
 
 ## Project Structure
 ```
@@ -8,6 +8,7 @@ pwc-site/
 ├── public/              # Static assets
 │   ├── images/         # Image assets
 │   │   ├── pwc.logo.png   # Main logo
+│   │   ├── roge.png       # Profile image
 │   │   ├── panda.png      # 404 page panda
 │   │   └── favicon.ico    # Website favicon
 │   ├── styles/         # CSS stylesheets
@@ -25,37 +26,41 @@ pwc-site/
 ### Homepage
 - Modern, clean design with the PWC logo as a background
 - Responsive navigation with mobile-optimized menu
-- Navigation menu with dropdown for projects
-- Centered hero section with tagline
+- Centered hero section with organization description
+- Project showcase with interactive logos and links
+- Developer profile with social connections
 - Glassmorphism effects for visual appeal
 - Fully responsive design for all devices
 
-### 404 Error Page
-- Custom designed error page with panda illustration
-- Speech bubble with friendly error message
-- Direct link back to homepage
-- Background logo positioned in top-left corner
+### Featured Projects
+- **PaintBar**: A modern, web-based paint application with an intuitive drawing experience
+- **Hashgraph**: Contributing to CI/CD pipelines and automations for the revolutionary distributed ledger
+- **Hiero-Ledger**: Linux Foundation's open-source distributed ledger technology
 
-### Styling and Scripts
-The website uses a modular approach to organization:
-- **CSS**: Separated into three files for better maintainability
-  - `common.css`: Shared styles including navigation and typography
-  - `index.css`: Homepage-specific styles
-  - `error.css`: 404 page-specific styles
-- **JavaScript**: Organized in the scripts directory
-  - `navigation.js`: Handles mobile navigation and dropdown functionality
+### Styling
+The website uses a modular CSS approach:
+- `common.css`: Navigation, typography, and shared components
+- `index.css`: Homepage-specific styles including project cards and profile
+- `error.css`: Custom 404 page styling
 
-## Navigation
-The main navigation includes:
+### Navigation
+Main sections include:
 - About
-- Projects (dropdown)
-  - Hashgraph
-  - PaintBar
-  - Hiero-Ledger
+- Projects
+  - PaintBar (paintbar.app)
+  - Hashgraph (hashgraph.com)
+  - Hiero-Ledger (hiero.org)
 - Support PWC
 
-## Mobile Features
-- Logo acts as a toggle button for the navigation menu
-- Smooth animations for menu transitions
-- Touch-optimized dropdown menus
-- Fully responsive layout adapting to all screen sizes
+## Development
+The site features:
+- Clean, semantic HTML5
+- Modern CSS with flexbox layouts
+- Mobile-first responsive design
+- Interactive elements with smooth transitions
+- External links to project repositories and live applications
+
+## Connect
+- GitHub: [PandasWhoCode](https://github.com/PandasWhoCode)
+- Email: info@pandaswhocode.com
+- Discord: [Join our community](https://discord.gg/cj6qyVSJqt)
