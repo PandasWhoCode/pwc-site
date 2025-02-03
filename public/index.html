@@ -11,30 +11,67 @@
 <body>
     <nav class="nav-banner">
         <div class="nav-content">
-            <a href="/" class="nav-logo-link">
+            <a href="#hero" class="nav-logo-link">
                 <img src="images/pwc.logo.png" alt="PWC Logo" class="nav-logo" id="nav-toggle">
             </a>
             <div class="nav-menu" id="nav-menu">
-                <a href="#" class="nav-item">About</a>
+                <a href="#about" class="nav-item">About</a>
                 <div class="dropdown">
-                    <a href="#" class="nav-item">Projects</a>
+                    <a href="#projects" class="nav-item">Projects</a>
                     <div class="dropdown-content">
-                        <a href="#" class="dropdown-item">Hashgraph</a>
-                        <a href="#" class="dropdown-item">PaintBar</a>
-                        <a href="#" class="dropdown-item">Hiero-Ledger</a>
+                        <a href="#hashgraph" class="dropdown-item">Hashgraph</a>
+                        <a href="#hiero-ledger" class="dropdown-item">Hiero-Ledger</a>
+                        <a href="#paintbar" class="dropdown-item">PaintBar</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item">Support PWC</a>
+                <a href="#support" class="nav-item">Support PWC</a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="hero">
-            <h1>Pandas Who Code</h1>
-            <p class="tagline">Where Pandas Meet Programming</p>
+    <section id="hero" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>Pandas Who Code</h1>
+                <p class="tagline">Where Pandas Meet Programming</p>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a community of developers who love both coding and pandas. Our mission is to make programming more accessible and enjoyable for everyone.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Our Projects</h2>
+            
+            <div id="hashgraph" class="project-item">
+                <h3>Hashgraph</h3>
+                <p>A revolutionary distributed ledger technology implementation.</p>
+            </div>
+
+            <div id="hiero-ledger" class="project-item">
+                <h3>Hiero-Ledger</h3>
+                <p>Secure and efficient blockchain solution.</p>
+            </div>
+
+            <div id="paintbar" class="project-item">
+                <h3>PaintBar</h3>
+                <p>An innovative digital art creation platform.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="section">
+        <div class="container">
+            <h2>Support PWC</h2>
+            <p>Help us continue building amazing tools for the community.</p>
+        </div>
+    </section>
 
     <script src="scripts/navigation.js"></script>
 </body>
