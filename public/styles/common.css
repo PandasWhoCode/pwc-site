@@ -59,7 +59,7 @@ body {
 }
 
 .nav-item:hover {
-    color: #4CAF50;
+    color: #00ffff;
 }
 
 .dropdown {
@@ -94,8 +94,8 @@ body {
 }
 
 .dropdown-item:hover {
-    background: rgba(76, 175, 80, 0.2);
-    color: #4CAF50;
+    background: rgba(0, 255, 255, 0.2);
+    color: #00ffff;
 }
 
 @media (max-width: 768px) {
