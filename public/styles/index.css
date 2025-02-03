@@ -56,10 +56,174 @@ h3 {
     transform: translateY(-5px);
 }
 
+.project-item h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.project-link {
+    color: #ffffff;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.project-link:hover {
+    opacity: 1;
+    color: #00ffff; /* Matching PandasWhoCode cyan color */
+    transform: translateY(-2px);
+}
+
 p {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.maintainers, .organization {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.maintainer-links, .org-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Default GitHub icon color */
+.social-link .fa-github {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+/* DJ-BBot hover style */
+[href*="DJ-BBot"]:hover {
+    background: rgba(76, 175, 80, 0.3);
+}
+[href*="DJ-BBot"]:hover .fa-github {
+    color: #4CAF50;
+}
+
+/* PandasWhoCode hover style */
+[href*="PandasWhoCode"]:hover {
+    background: rgba(0, 255, 255, 0.3);
+}
+[href*="PandasWhoCode"]:hover .fa-github {
+    color: #00ffff;
+}
+
+/* rbarkerSL hover style */
+[href*="rbarkerSL"]:hover {
+    background: rgba(255, 0, 255, 0.3);
+}
+[href*="rbarkerSL"]:hover .fa-github {
+    color: #ff00ff;
+}
+
+/* LinkedIn hover style */
+[href*="linkedin"]:hover {
+    background: rgba(0, 119, 181, 0.3);
+}
+[href*="linkedin"]:hover .fa-linkedin {
+    color: #0077b5;
+}
+
+/* Email hover style */
+[href^="mailto"]:hover {
+    background: rgba(234, 67, 53, 0.3);
+}
+[href^="mailto"]:hover .fa-envelope {
+    color: #ea4335;
+}
+
+/* Discord hover style */
+.discord-link:hover {
+    background: rgba(88, 101, 242, 0.3);
+}
+.discord-link:hover i {
+    color: #31233a;
+}
+
+.social-link i {
+    font-size: 1.2rem;
+}
+
+.profile-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2.5rem;
+    backdrop-filter: blur(10px);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bio {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 1.5rem 0 2.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.links-group {
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.links-group h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.links-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.connect-section, .organization {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.profile-links, .org-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -85,5 +249,66 @@ p {
 
     .project-item {
         padding: 1.5rem;
+    }
+
+    .social-links {
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    .maintainers, .organization {
+        padding: 1.5rem;
+    }
+
+    .maintainer-links, .org-links {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .social-link {
+        justify-content: center;
+    }
+
+    .profile-section {
+        padding: 1.5rem;
+    }
+
+    .bio {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .links-group {
+        padding-top: 1.2rem;
+    }
+
+    .links-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .social-link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        gap: 1.5rem;
+    }
+
+    .links-group {
+        padding-top: 1.2rem;
+    }
+
+    .links-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .social-link {
+        justify-content: center;
     }
 }

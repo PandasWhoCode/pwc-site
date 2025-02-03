@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
     <nav class="nav-banner">
@@ -19,9 +20,9 @@
                 <div class="dropdown">
                     <a href="#projects" class="nav-item">Projects</a>
                     <div class="dropdown-content">
+                        <a href="#paintbar" class="dropdown-item">PaintBar</a>
                         <a href="#hashgraph" class="dropdown-item">Hashgraph</a>
                         <a href="#hiero-ledger" class="dropdown-item">Hiero-Ledger</a>
-                        <a href="#paintbar" class="dropdown-item">PaintBar</a>
                     </div>
                 </div>
                 <a href="#support" class="nav-item">Support PWC</a>
@@ -40,8 +41,71 @@
 
     <section id="about" class="section">
         <div class="container">
-            <h2>About Us</h2>
-            <p>We are a community of developers who love both coding and pandas. Our mission is to make programming more accessible and enjoyable for everyone.</p>
+            <h2>About</h2>
+            <div class="profile-section">
+                <h3>About Pandas Who Code</h3>
+                <p class="bio">
+                    Welcome to PandasWhoCode, a software development organization focused on open-source projects, and cutting-edge technology. We specialize in:
+                </p>
+                <ul class="specialties">
+                    <li><strong>💻 Open Source Contributions</strong>
+                        <ul>
+                            <li>Tools, libraries, and frameworks for modern software development.</li>
+                        </ul>
+                    </li>
+                    <li><strong>⚡ DevOps & CI/CD Solutions</strong>
+                        <ul>
+                            <li>Automation, workflows, and best practices for seamless development pipelines.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Roger Barker</h3>
+                <p class="bio">
+                    Software Engineer and Creator of Pandas Who Code. With a passion for building innovative solutions 
+                    and fostering developer communities, I focus on creating tools and platforms that make programming more 
+                    accessible and enjoyable. My expertise spans distributed systems, blockchain technology, process automation, 
+                    and developer tools.
+                </p>
+                
+                <div class="social-links">
+                    <div class="links-group personal">
+                        <h4>Connect With Me</h4>
+                        <div class="links-row">
+                            <a href="https://github.com/rbarkerSL" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                rbarkerSL
+                            </a>
+                            <a href="https://github.com/DJ-BBot" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                DJ-BBot
+                            </a>
+                            <a href="https://www.linkedin.com/in/roger-barker/" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                                Roger Barker
+                            </a>
+                            <a href="mailto:maintainers@pandaswhocode.com?subject=Hello%20from%20PWC%20Site&body=Hi%20there%2C%0A%0AI'm%20reaching%20out%20regarding%20Pandas%20Who%20Code..." class="social-link">
+                                <i class="fas fa-envelope"></i>
+                                maintainers@pandaswhocode.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="links-group community">
+                        <h4>Follow the Development</h4>
+                        <div class="links-row">
+                            <a href="https://github.com/PandasWhoCode" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                PandasWhoCode
+                            </a>
+                            <a href="https://discord.gg/cj6qyVSJqt" class="social-link discord-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-discord"></i>
+                                Join Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -49,6 +113,16 @@
         <div class="container">
             <h2>Our Projects</h2>
             
+            <div id="paintbar" class="project-item">
+                <h3>
+                    PaintBar
+                    <a href="https://github.com/PandasWhoCode/paintbar" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h3>
+                <p>An innovative digital art creation platform.</p>
+            </div>
+
             <div id="hashgraph" class="project-item">
                 <h3>Hashgraph</h3>
                 <p>A revolutionary distributed ledger technology implementation.</p>
@@ -57,11 +131,6 @@
             <div id="hiero-ledger" class="project-item">
                 <h3>Hiero-Ledger</h3>
                 <p>Secure and efficient blockchain solution.</p>
-            </div>
-
-            <div id="paintbar" class="project-item">
-                <h3>PaintBar</h3>
-                <p>An innovative digital art creation platform.</p>
             </div>
         </div>
     </section>
