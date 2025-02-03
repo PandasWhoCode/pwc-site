@@ -219,11 +219,12 @@ p {
     display: block;
     width: 200px;
     margin: 0 auto 2rem;
-    transition: transform 0.3s ease;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.profile-image-link:hover {
-    transform: translateY(-2px);
+.profile-image-link:focus {
+    outline: none;
 }
 
 .profile-image {
@@ -234,11 +235,6 @@ p {
     display: block;
     border: 3px solid #00ffff;
     filter: grayscale(100%);
-    transition: filter 0.3s ease;
-}
-
-.profile-image:hover {
-    filter: grayscale(0%);
 }
 
 .bio {
