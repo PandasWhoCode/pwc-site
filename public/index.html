@@ -11,12 +11,12 @@
 <body>
     <nav class="nav-banner">
         <div class="nav-content">
-            <a href="/">
-                <img src="images/pwc.logo.png" alt="PWC Logo" class="nav-logo">
+            <a href="/" class="nav-logo-link">
+                <img src="images/pwc.logo.png" alt="PWC Logo" class="nav-logo" id="nav-toggle">
             </a>
-            <div class="nav-menu">
+            <div class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-item">About</a>
                 <div class="dropdown">
-                    <a href="#" class="nav-item">About</a>
                     <a href="#" class="nav-item">Projects</a>
                     <div class="dropdown-content">
                         <a href="#" class="dropdown-item">Hashgraph</a>
@@ -35,5 +35,7 @@
             <p class="tagline">Where Pandas Meet Programming</p>
         </div>
     </div>
+
+    <script src="scripts/navigation.js"></script>
 </body>
 </html>
