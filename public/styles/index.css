@@ -190,6 +190,23 @@ p {
     backdrop-filter: blur(10px);
     max-width: 800px;
     margin: 0 auto;
+    text-align: left;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 2rem;
+    display: block;
+    border: 3px solid #00ffff;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.profile-image:hover {
+    filter: grayscale(0%);
 }
 
 .bio {
