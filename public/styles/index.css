@@ -43,6 +43,12 @@ h3 {
     opacity: 0.9;
 }
 
+.specialties, .specialties ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
 .project-item {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
