@@ -169,11 +169,11 @@ p {
     color: #00ffff;
 }
 
-/* rbarkerSL hover style */
-[href*="rbarkerSL"]:hover {
+/* rbarker-dev hover style */
+[href*="rbarker-dev"]:hover {
     background: rgba(255, 0, 255, 0.3);
 }
-[href*="rbarkerSL"]:hover .fa-github {
+[href*="rbarker-dev"]:hover .fa-github {
     color: #ff00ff;
 }
 
