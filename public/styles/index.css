@@ -177,6 +177,14 @@ p {
     color: #ff00ff;
 }
 
+/* andrewb1269hg hover style */
+[href*="andrewb1269hg"]:hover {
+    background: rgba(255, 0, 255, 0.3);
+}
+[href*="andrewb1269hg"]:hover .fa-github {
+    color: #ff00ff;
+}
+
 /* LinkedIn hover style */
 [href*="linkedin"]:hover {
     background: rgba(0, 119, 181, 0.3);
@@ -223,6 +231,11 @@ p {
     -webkit-tap-highlight-color: transparent;
 }
 
+.profile-section-header {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+}
+
 .profile-image-link:focus {
     outline: none;
 }
@@ -240,19 +253,20 @@ p {
 .bio {
     font-size: 1.2rem;
     line-height: 1.8;
-    margin: 1.5rem 0 2.5rem;
+    margin-top: 1.5rem;
     color: rgba(255, 255, 255, 0.9);
 }
 
 .links-group {
     padding-top: 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1.5rem;
 }
 
 .links-group h4 {
     font-size: 1.3rem;
-    margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
 }
 
 .links-row {
