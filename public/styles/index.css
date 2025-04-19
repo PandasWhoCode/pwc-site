@@ -177,6 +177,14 @@ p {
     color: #ff00ff;
 }
 
+/* andrewb1269hg hover style */
+[href*="andrewb1269hg"]:hover {
+    background: rgba(255, 0, 255, 0.3);
+}
+[href*="andrewb1269hg"]:hover .fa-github {
+    color: #ff00ff;
+}
+
 /* LinkedIn hover style */
 [href*="linkedin"]:hover {
     background: rgba(0, 119, 181, 0.3);
@@ -221,6 +229,11 @@ p {
     margin: 0 auto 2rem;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+}
+
+.profile-section-header {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
 }
 
 .profile-image-link:focus {
