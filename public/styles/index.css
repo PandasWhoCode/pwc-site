@@ -291,6 +291,48 @@ p {
     margin-top: 1rem;
 }
 
+.support-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.support-item:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 255, 255, 0.1);
+}
+
+.support-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.support-link:hover {
+    border-color: #00ffff;
+    background: rgba(0, 255, 255, 0.1);
+}
+
+.support-link i {
+    font-size: 1.8rem;
+    color: #00ffff;
+}
+
+.support-link:hover i {
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     .section {
         padding: 5rem 1rem 3rem;
