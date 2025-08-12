@@ -220,7 +220,7 @@ p {
     backdrop-filter: blur(10px);
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 .profile-image-link {
@@ -234,6 +234,7 @@ p {
 .profile-section-header {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
+    text-align: center;
 }
 
 .profile-image-link:focus {
@@ -267,6 +268,11 @@ p {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+.links-group h3 {
+    text-align: center;
 }
 
 .links-row {
