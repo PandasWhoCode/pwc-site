@@ -177,11 +177,11 @@ p {
     color: #ff00ff;
 }
 
-/* andrewb1269hg hover style */
-[href*="andrewb1269hg"]:hover {
+/* andrewb1269 hover style */
+[href*="andrewb1269"]:hover {
     background: rgba(255, 0, 255, 0.3);
 }
-[href*="andrewb1269hg"]:hover .fa-github {
+[href*="andrewb1269"]:hover .fa-github {
     color: #ff00ff;
 }
 
