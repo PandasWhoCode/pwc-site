@@ -37,3 +37,4 @@ jobs:
           echo "## Preview URL" | tee -a "${GITHUB_STEP_SUMMARY}"
           echo "Preview URL: ${{ steps.deploy-preview.outputs.details_url }}" | tee -a "${GITHUB_STEP_SUMMARY}"
           echo "Expires At: ${{ steps.deploy-preview.outputs.expire_time }}" | tee -a "${GITHUB_STEP_SUMMARY}"
+          echo "---" | tee -a "${GITHUB_STEP_SUMMARY}"
