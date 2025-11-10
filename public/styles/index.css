@@ -102,6 +102,7 @@ h3 {
     opacity: 1;
     color: #00ffff; /* Matching PandasWhoCode cyan color */
     transform: translateY(-2px);
+    text-decoration: none;
 }
 
 p {
