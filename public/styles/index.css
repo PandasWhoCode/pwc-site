@@ -153,11 +153,11 @@ p {
     transition: color 0.3s ease;
 }
 
-/* DJ-BBot hover style */
-[href*="DJ-BBot"]:hover {
+/* rbarker-dev hover style */
+[href*="rbarker-dev"]:hover {
     background: rgba(76, 175, 80, 0.3);
 }
-[href*="DJ-BBot"]:hover .fa-github {
+[href*="rbarker-dev"]:hover .fa-github {
     color: #4CAF50;
 }
 
