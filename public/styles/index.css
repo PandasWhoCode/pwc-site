@@ -153,14 +153,6 @@ p {
     transition: color 0.3s ease;
 }
 
-/* DJ-BBot hover style */
-[href*="DJ-BBot"]:hover {
-    background: rgba(76, 175, 80, 0.3);
-}
-[href*="DJ-BBot"]:hover .fa-github {
-    color: #4CAF50;
-}
-
 /* PandasWhoCode hover style */
 [href*="PandasWhoCode"]:hover {
     background: rgba(0, 255, 255, 0.3);
@@ -177,11 +169,11 @@ p {
     color: #ff00ff;
 }
 
-/* andrewb1269hg hover style */
-[href*="andrewb1269hg"]:hover {
+/* andrewb1269 hover style */
+[href*="andrewb1269"]:hover {
     background: rgba(255, 0, 255, 0.3);
 }
-[href*="andrewb1269hg"]:hover .fa-github {
+[href*="andrewb1269"]:hover .fa-github {
     color: #ff00ff;
 }
 
