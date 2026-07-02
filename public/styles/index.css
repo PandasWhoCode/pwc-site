@@ -43,11 +43,30 @@ h3 {
     opacity: 0.9;
 }
 
-.specialties, .specialties ul {
+/* Specialty list styles */
+.specialties,
+.specialties ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 2rem;
 }
+
+/* Icon styling */
+.specialties i {
+    margin-right: 6px;
+    font-size: 1.1rem; 
+    vertical-align: middle; 
+}
+
+/* Individual icon colors */
+.icon-laptop {
+    color: rgb(159, 228, 255);
+}
+
+.icon-bolt {
+    color: rgb(201, 11, 201);
+}
+
 
 .project-item {
     background: rgba(255, 255, 255, 0.1);
