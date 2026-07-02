@@ -32,6 +32,8 @@
                         <a href="#version2" class="dropdown-item">version2</a>
                         <a href="#prmirror" class="dropdown-item">PR Mirror</a>
                         <a href="#rootly-incident-action" class="dropdown-item">Rootly Incident Action</a>
+                        <a href="#rootly-alert-action" class="dropdown-item">Rootly Alert Action</a>
+                        <a href="#initialize-github-job" class="dropdown-item">Initialize GitHub Job</a>
                     </div>
                 </div>
                 <a href="#support" class="nav-item">Support the Devs</a>
@@ -92,10 +94,6 @@
                                 <i class="fab fa-github"></i>
                                 rbarker-dev
                             </a>
-                            <a href="https://github.com/DJ-BBot" class="social-link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                                DJ-BBot
-                            </a>
                             <a href="https://www.linkedin.com/in/roger-barker/" class="social-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin"></i>
                                 Roger Barker
@@ -121,9 +119,9 @@
                     <div class="links-group personal">
                         <h4>Connect With Me</h4>
                         <div class="links-row">
-                            <a href="https://github.com/andrewb1269hg" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/andrewb1269" class="social-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
-                                andrewb1269hg
+                                andrewb1269
                             </a>
                             <a href="https://www.linkedin.com/in/andrew-brandt-boeing/" class="social-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin"></i>
@@ -233,14 +231,14 @@
                     </a>
                 </h3>
                 <p><em>
-                    Github Marketplace
+                    GitHub Marketplace
                     <a href="https://github.com/marketplace/actions/git-semver-setup-action" class="project-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
                 </em></p>
                 <p>
-                    Git Semver Setup Action is a PandasWhoCode maintained github action that enables the setup-git-semver cli
-                    tool to be used within a github workflow.
+                    Git Semver Setup Action is a PandasWhoCode maintained GitHub action that enables the setup-git-semver cli
+                    tool to be used within a GitHub workflow.
                 </p>
             </div>
             <div id="read-all-props" class="project-item">
@@ -254,14 +252,14 @@
                     </a>
                 </h3>
                 <p><em>
-                    Github Marketplace
+                    GitHub Marketplace
                     <a href="https://github.com/marketplace/actions/read-custom-properties" class="project-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
                 </em></p>
                 <p>
-                    Read All Custom Properties is a PandasWhoCode maintained github action that reads all custom properties
-                    from the repositories in a github organization and outputs them to a yaml file in the repository.
+                    Read All Custom Properties is a PandasWhoCode maintained GitHub action that reads all custom properties
+                    from the repositories in a GitHub organization and outputs them to a yaml file in the repository.
                 </p>
             </div>
             <div id="update-custom-props" class="project-item">
@@ -275,13 +273,13 @@
                     </a>
                 </h3>
                 <p><em>
-                    Github Marketplace
+                    GitHub Marketplace
                     <a href="https://github.com/marketplace/actions/custom-properties-update-action" class="project-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
                 </em></p>
                 <p>
-                    Custom Properties Update Action is a PandasWhoCode maintained github action that updates the custom properties
+                    Custom Properties Update Action is a PandasWhoCode maintained GitHub action that updates the custom properties
                     in all repositories based on the values defined in the input file.
                 </p>
                 <p>
@@ -299,14 +297,14 @@
                     </a>
                 </h3>
                 <p><em>
-                    Github Marketplace
+                    GitHub Marketplace
                     <a href="https://github.com/marketplace/actions/set-custom-properties-schema-action" class="project-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
                 </em></p>
                 <p>
-                    Set Custom Properties Schema Action is a PandasWhoCode maintained github action that configures the custom properties
-                    of the provided github organization. It requires a fine-grained personal access token with the
+                    Set Custom Properties Schema Action is a PandasWhoCode maintained GitHub action that configures the custom properties
+                    of the provided GitHub organization. It requires a fine-grained personal access token with the
                     <code>organization:custom-properites:admin</code> scope.
                 </p>
                 <p>
@@ -354,14 +352,58 @@
                     </a>
                 </h3>
                 <p><em>
-                    Github Marketplace
+                    GitHub Marketplace
                     <a href="https://github.com/marketplace/actions/rootly-incident-action" class="project-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
                 </em></p>
                 <p>
-                    A GitHub Action for creating incidents and alerts in Rootly, a platform for incident management and response.
+                    A GitHub Action for creating incidents using Rootly, a platform for incident management and response.
                     This action integrates seamlessly with your CI/CD workflows to automatically create incidents when issues are detected.
+                    This action fully implements the <a href="https://docs.rootly.com/api-reference/incidents/creates-an-incident" class="rootly-link" target="_blank" rel="noopener noreferrer"><code>creates-an-incident</code></a> api.
+                </p>
+            </div>
+            <div id="rootly-alert-action" class="project-item">
+                <a href="https://github.com/PandasWhoCode/rootly-alert-action" class="project-logo-link" target="_blank" rel="noopener noreferrer">
+                    <img src="images/rootly-alert-action.png" alt="Rootly Alert Action Logo" class="project-logo">
+                </a>
+                <h3>
+                    Rootly Alert Action
+                    <a href="https://github.com/PandasWhoCode/rootly-alert-action" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h3>
+                <p><em>
+                    GitHub Marketplace
+                    <a href="https://github.com/marketplace/actions/rootly-alert-action" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </em></p>
+                <p>
+                    A GitHub Action for creating alerts using Rootly, a platform for incident management and response.
+                    This action integrates seamlessly with your CI/CD workflows to automatically create alerts when issues are detected.
+                    This action fully implements the <a href="https://docs.rootly.com/api-reference/alerts/creates-an-alert" class="rootly-link" target="_blank" rel="noopener noreferrer"><code>creates-an-alert</code></a> api.
+                </p>
+            </div>
+            <div id="initialize-github-job" class="project-item">
+                <a href="https://github.com/PandasWhoCode/initialize-github-job" class="project-logo-link" target="_blank" rel="noopener noreferrer">
+                    <img src="images/initialize-github-job.png" alt="Initialize GitHub Job Logo" class="project-logo">
+                </a>
+                <h3>
+                    Initialize GitHub Job
+                    <a href="https://github.com/PandasWhoCode/initialize-github-job" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h3>
+                <p><em>
+                    GitHub Marketplace
+                    <a href="https://github.com/marketplace/actions/initialize-github-job" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </em></p>
+                <p>
+                    A composite GitHub action used to initialize a job in GitHub actions workflows. This action runs hardened runner and enables the
+                    developer to check out the repository and to set up common ecosystem tools (java, gradle, npm, python, rust, swift, and go).
                 </p>
             </div>
         </div>

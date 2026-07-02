@@ -117,10 +117,25 @@ h3 {
     font-size: 1.2rem;
 }
 
-.project-link:hover {
+.project-link:hover{
     opacity: 1;
     color: #00ffff; /* Matching PandasWhoCode cyan color */
     transform: translateY(-2px);
+}
+
+.rootly-link {
+    color: #ffffff;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.rootly-link:hover {
+    opacity: 1;
+    color: #00ffff; /* Matching PandasWhoCode cyan color */
+    transform: translateY(-2px);
+    text-decoration: none;
 }
 
 p {
@@ -172,14 +187,6 @@ p {
     transition: color 0.3s ease;
 }
 
-/* DJ-BBot hover style */
-[href*="DJ-BBot"]:hover {
-    background: rgba(76, 175, 80, 0.3);
-}
-[href*="DJ-BBot"]:hover .fa-github {
-    color: #4CAF50;
-}
-
 /* PandasWhoCode hover style */
 [href*="PandasWhoCode"]:hover {
     background: rgba(0, 255, 255, 0.3);
@@ -196,11 +203,11 @@ p {
     color: #ff00ff;
 }
 
-/* andrewb1269hg hover style */
-[href*="andrewb1269hg"]:hover {
+/* andrewb1269 hover style */
+[href*="andrewb1269"]:hover {
     background: rgba(255, 0, 255, 0.3);
 }
-[href*="andrewb1269hg"]:hover .fa-github {
+[href*="andrewb1269"]:hover .fa-github {
     color: #ff00ff;
 }
 
@@ -239,7 +246,7 @@ p {
     backdrop-filter: blur(10px);
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 .profile-image-link {
@@ -253,6 +260,7 @@ p {
 .profile-section-header {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
+    text-align: center;
 }
 
 .profile-image-link:focus {
@@ -286,6 +294,11 @@ p {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+.links-group h3 {
+    text-align: center;
 }
 
 .links-row {
